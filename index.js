@@ -12,10 +12,9 @@ const yourAnimal = () => {
 };
 
 const add2 = (n) => {
-  n + two;
-
   // Feel free to move things around!
   const two = 2;
+  n + two;
 };
 
 const funkyFunction = () => () => "FUNKY!";
