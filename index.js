@@ -1,18 +1,16 @@
 let animal = 'dog';
 
-const myAnimal = () => {
-  return animal;
-};
+const myAnimal = () => animal;
 
 const yourAnimal = () => {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal;
+  animal;
 };
 
 const add2 = (n) => {
-  return n + two;
+  n + two;
 
   // Feel free to move things around!
   const two = 2;
